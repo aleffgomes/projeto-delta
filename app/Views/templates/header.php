@@ -14,11 +14,9 @@
   <link rel="stylesheet" href="<?= base_url('theme/plugins/datatables-responsive/css/responsive.bootstrap4.min.css') ?>">
   <link rel="stylesheet" href="<?= base_url('theme/plugins/datatables-buttons/css/buttons.bootstrap4.min.css') ?>">
   <!-- Theme style -->
-  <link rel="stylesheet" href="<?= base_url('theme/dist/css/adminlte.min.css') ?>">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/admin-lte@3.1/dist/css/adminlte.min.css">
     <!-- style  -->
   <link rel="stylesheet" href="<?= base_url('css/styles.css') ?>">
-  <!-- alert  -->
-  <link rel="stylesheet" href="sweetalert2.min.css">  
   <link rel="shortcut icon" href="https://img.icons8.com/color/96/000000/godtier.png" type="image/x-icon">
 
 </head>

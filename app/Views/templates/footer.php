@@ -22,7 +22,7 @@
   <!-- Bootstrap 4 -->
   <script src="<?= base_url('theme/plugins/bootstrap/js/bootstrap.bundle.min.js') ?>"></script>
   <!-- AdminLTE App -->
-  <script src="<?= base_url('theme/dist/js/adminlte.min.js') ?>"></script>
+  <script src="https://cdn.jsdelivr.net/npm/admin-lte@3.1/dist/js/adminlte.min.js"></script>
   <!-- alerts  -->
  <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
   </body>
