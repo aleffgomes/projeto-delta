@@ -24,6 +24,7 @@ Desenvolvimento de projeto CRUD (cadastro de alunos) utilizando o acesso a banco
 Antes de tudo, pare o xampp/wamp e, em seguida, remova o ponto e vírgula inicial (;) do seu xampp/php/php.ini no código a seguir:
 `;extension=php_intl.dll`
 E então reinicie seu xampp/wamp.
+
 Após ativar a extensão e adicionar o diretório PHP ao PATH do Windows, siga os seguintes passos:
  - Execute o CMD na pasta principal do projeto e digite o comando `php spark migrate`, então a base de dados será criada
 ### Iniciar servidor
