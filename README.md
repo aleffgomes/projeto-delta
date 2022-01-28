@@ -26,7 +26,6 @@ Antes de tudo, pare o xampp/wamp e, em seguida, remova o ponto e vírgula inicia
 E então reinicie seu xampp/wamp.
 Após ativar a extensão e adicionar o diretório PHP ao PATH do Windows, siga os seguintes passos:
  - Execute o CMD na pasta principal do projeto e digite o comando `php spark migrate`, então a base de dados será criada
- - 
 ### Iniciar servidor
  - Ainda com o CMD aberto, digite o comando `php spark serve` para iniciar o servidor
 ### Iniciar Sistema
