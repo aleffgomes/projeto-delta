@@ -1,0 +1,33 @@
+/* formulário */
+.cascade > div {
+    width: 100%;
+    margin-top: 10px;
+}
+.cascade > div > div {
+    display: inline-block;
+}
+.cascade > div > div > p{
+    margin: 0 0 0 30px !important;
+}
+.t_foto {
+    margin: 0 !important;
+}
+
+.img-usr {
+    display: flex;
+}
+
+.img-img-usr {
+    margin: 0px auto 25px;
+}
+
+.just-profile-pic {
+    /* margin: 20px auto auto auto; */
+    height: 120px;
+    width: 120px;
+    border: 3px solid rgba(0, 40, 92, 0.5);
+    border-radius: 15px;
+    margin-bottom: auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, .2);
+    object-fit: cover;
+}
