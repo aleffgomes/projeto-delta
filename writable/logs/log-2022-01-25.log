@@ -1,0 +1,95 @@
+CRITICAL - 2022-01-25 14:59:39 --> Invalid file: clientes/novo.php
+#0 C:\xampp\htdocs\projeto-modulo-2\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('clientes/novo.p...')
+#1 C:\xampp\htdocs\projeto-modulo-2\system\Common.php(1089): CodeIgniter\View\View->render('clientes/novo', Array, true)
+#2 C:\xampp\htdocs\projeto-modulo-2\app\Controllers\Alunos.php(12): view('clientes/novo')
+#3 C:\xampp\htdocs\projeto-modulo-2\system\CodeIgniter.php(825): App\Controllers\Alunos->novo()
+#4 C:\xampp\htdocs\projeto-modulo-2\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alunos))
+#5 C:\xampp\htdocs\projeto-modulo-2\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\projeto-modulo-2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-25 17:52:46 --> Undefined property: App\Controllers\Alunos::$cliente_model
+#0 C:\xampp\htdocs\projeto-modulo-2\app\Controllers\Alunos.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 27)
+#1 C:\xampp\htdocs\projeto-modulo-2\system\CodeIgniter.php(825): App\Controllers\Alunos->store()
+#2 C:\xampp\htdocs\projeto-modulo-2\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alunos))
+#3 C:\xampp\htdocs\projeto-modulo-2\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projeto-modulo-2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-01-25 17:53:08 --> Unknown column 'updated_at' in 'field list'
+CRITICAL - 2022-01-25 17:53:08 --> Unknown column 'updated_at' in 'field list'
+#0 C:\xampp\htdocs\projeto-modulo-2\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `al...', 0)
+#1 C:\xampp\htdocs\projeto-modulo-2\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `al...')
+#2 C:\xampp\htdocs\projeto-modulo-2\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `al...')
+#3 C:\xampp\htdocs\projeto-modulo-2\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `al...', Array, false)
+#4 C:\xampp\htdocs\projeto-modulo-2\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\projeto-modulo-2\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\projeto-modulo-2\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\projeto-modulo-2\app\Controllers\Alunos.php(27): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\projeto-modulo-2\system\CodeIgniter.php(825): App\Controllers\Alunos->store()
+#9 C:\xampp\htdocs\projeto-modulo-2\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alunos))
+#10 C:\xampp\htdocs\projeto-modulo-2\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\projeto-modulo-2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-01-25 20:13:39 --> Undefined property: CodeIgniter\HTTP\IncomingRequest::$getFiles
+#0 C:\xampp\htdocs\projeto-modulo-2\app\Controllers\Alunos.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 27)
+#1 C:\xampp\htdocs\projeto-modulo-2\system\CodeIgniter.php(825): App\Controllers\Alunos->store()
+#2 C:\xampp\htdocs\projeto-modulo-2\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alunos))
+#3 C:\xampp\htdocs\projeto-modulo-2\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projeto-modulo-2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-25 20:14:24 --> Undefined property: CodeIgniter\HTTP\IncomingRequest::$getFiles
+#0 C:\xampp\htdocs\projeto-modulo-2\app\Controllers\Alunos.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 27)
+#1 C:\xampp\htdocs\projeto-modulo-2\system\CodeIgniter.php(825): App\Controllers\Alunos->store()
+#2 C:\xampp\htdocs\projeto-modulo-2\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alunos))
+#3 C:\xampp\htdocs\projeto-modulo-2\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projeto-modulo-2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-25 20:14:44 --> Call to a member function getName() on array
+#0 C:\xampp\htdocs\projeto-modulo-2\system\CodeIgniter.php(825): App\Controllers\Alunos->store()
+#1 C:\xampp\htdocs\projeto-modulo-2\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alunos))
+#2 C:\xampp\htdocs\projeto-modulo-2\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\projeto-modulo-2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-25 20:15:20 --> Call to undefined function App\Controllers\getName()
+#0 C:\xampp\htdocs\projeto-modulo-2\system\CodeIgniter.php(825): App\Controllers\Alunos->store()
+#1 C:\xampp\htdocs\projeto-modulo-2\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alunos))
+#2 C:\xampp\htdocs\projeto-modulo-2\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\projeto-modulo-2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-25 20:17:18 --> Call to a member function getName() on array
+#0 C:\xampp\htdocs\projeto-modulo-2\system\CodeIgniter.php(825): App\Controllers\Alunos->store()
+#1 C:\xampp\htdocs\projeto-modulo-2\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alunos))
+#2 C:\xampp\htdocs\projeto-modulo-2\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\projeto-modulo-2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-25 20:17:34 --> Call to a member function getName() on array
+#0 C:\xampp\htdocs\projeto-modulo-2\system\CodeIgniter.php(825): App\Controllers\Alunos->store()
+#1 C:\xampp\htdocs\projeto-modulo-2\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alunos))
+#2 C:\xampp\htdocs\projeto-modulo-2\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\projeto-modulo-2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-25 20:18:00 --> Call to a member function getName() on array
+#0 C:\xampp\htdocs\projeto-modulo-2\system\CodeIgniter.php(825): App\Controllers\Alunos->store()
+#1 C:\xampp\htdocs\projeto-modulo-2\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alunos))
+#2 C:\xampp\htdocs\projeto-modulo-2\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\projeto-modulo-2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-25 20:20:37 --> Attempt to read property "name" on array
+#0 C:\xampp\htdocs\projeto-modulo-2\app\Controllers\Alunos.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 27)
+#1 C:\xampp\htdocs\projeto-modulo-2\system\CodeIgniter.php(825): App\Controllers\Alunos->store()
+#2 C:\xampp\htdocs\projeto-modulo-2\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alunos))
+#3 C:\xampp\htdocs\projeto-modulo-2\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projeto-modulo-2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-25 20:28:30 --> Call to undefined function App\Controllers\generateRandomString()
+#0 C:\xampp\htdocs\projeto-modulo-2\system\CodeIgniter.php(825): App\Controllers\Alunos->store()
+#1 C:\xampp\htdocs\projeto-modulo-2\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alunos))
+#2 C:\xampp\htdocs\projeto-modulo-2\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\projeto-modulo-2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-25 20:31:36 --> Undefined array key "name"
+#0 C:\xampp\htdocs\projeto-modulo-2\app\Controllers\Alunos.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 27)
+#1 C:\xampp\htdocs\projeto-modulo-2\system\CodeIgniter.php(825): App\Controllers\Alunos->store()
+#2 C:\xampp\htdocs\projeto-modulo-2\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alunos))
+#3 C:\xampp\htdocs\projeto-modulo-2\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projeto-modulo-2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
