@@ -22,7 +22,7 @@ Desenvolvimento de projeto CRUD (cadastro de alunos) utilizando o acesso a banco
 ```
 ### Importar tabela
 Antes de tudo, pare o xampp/wamp e, em seguida, remova o ponto e vírgula inicial (;) do seu xampp/php/php.ini no código a seguir:
-`;extension=php_intl.dll`
+`;extension=intl`
 E então reinicie seu xampp/wamp.
 
 Após ativar a extensão e adicionar o diretório PHP ao PATH do Windows, siga os seguintes passos:
